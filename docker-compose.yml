@@ -18,7 +18,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root123     # Gantilah dengan password kuat (bisa pakai secret)
+      MYSQL_ROOT_PASSWORD: root123     # Gantlah dengan password kuat (bisa pakai secret)
       MYSQL_DATABASE: bloodwellnessaccount
       MYSQL_USER: blooduser
       MYSQL_PASSWORD: bloodpass123     # Jangan hardcode di production, pakai env/secret

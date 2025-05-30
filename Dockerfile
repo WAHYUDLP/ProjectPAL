@@ -11,4 +11,5 @@ RUN a2enmod rewrite
 COPY . /var/www/html
 
 # Atur permission (opsional tapi disarankan)
+
 RUN chown -R www-data:www-data /var/www/html
