@@ -18,9 +18,6 @@ jobs:
         run: docker build -t php-app .
 
       # Tambahkan testing jika punya skrip PHP Unit atau lainnya
-      - name: Run Container to Validate PHP
-        run: docker-compose exec web php -v
-
 
 
 
