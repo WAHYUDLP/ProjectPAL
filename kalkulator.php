@@ -13,6 +13,7 @@ $hasil_kalori = $_SESSION['hasil_kalori'] ?? null;
 $tombol_label = isset($_SESSION['kalori']) ? 'ATUR ULANG' : 'HITUNG';
 $tombol_action = isset($_SESSION['kalori']) ? 'resetKalkulator.php' : 'prosesKalkulator.php';
 
+//komebn
 
 
 // Reset session agar tidak menampilkan hasil terus-menerus saat refresh
